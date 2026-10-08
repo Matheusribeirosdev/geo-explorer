@@ -1,0 +1,27 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Explorador interativo de trilhas de aprendizagem, desafios e certificados fictícios.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "trilha": "node src/index.js trilha",
+    "desafio": "node src/index.js desafio",
+    "certificado": "node src/index.js certificado",
+    "mcp": "node src/mcp/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "geo-explorer",
+    "ibm-bob",
+    "mcp",
+    "ai-agent",
+    "dio",
+    "learning-path"
+  ],
+  "license": "MIT"
+}

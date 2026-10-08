@@ -1,0 +1,144 @@
+{
+  "trilhas": [
+    {
+      "tecnologia": "JavaScript",
+      "descricao": "Trilha para desenvolver fundamentos da linguagem e aplicações interativas.",
+      "niveis": {
+        "iniciante": {
+          "duracao_estimada": "4 semanas",
+          "modulos": [
+            "Fundamentos da linguagem",
+            "Variáveis, tipos e operadores",
+            "Condicionais e estruturas de repetição",
+            "Funções e escopo",
+            "Arrays e objetos"
+          ],
+          "desafio": "Crie uma função que receba uma lista de números e retorne somente os números pares."
+        },
+        "intermediario": {
+          "duracao_estimada": "6 semanas",
+          "modulos": [
+            "Programação funcional",
+            "Manipulação avançada de objetos",
+            "Assíncrono com Promises",
+            "APIs e consumo de dados",
+            "Módulos e organização de projetos"
+          ],
+          "desafio": "Consuma uma API pública e transforme a resposta em uma coleção filtrada e ordenada."
+        }
+      }
+    },
+    {
+      "tecnologia": "Python",
+      "descricao": "Trilha para aprender programação, automação e manipulação de dados com Python.",
+      "niveis": {
+        "iniciante": {
+          "duracao_estimada": "4 semanas",
+          "modulos": [
+            "Sintaxe e tipos básicos",
+            "Estruturas condicionais",
+            "Laços de repetição",
+            "Funções",
+            "Listas, dicionários e conjuntos"
+          ],
+          "desafio": "Crie um programa que leia uma lista de notas e calcule a média, identificando as notas acima da média."
+        },
+        "intermediario": {
+          "duracao_estimada": "6 semanas",
+          "modulos": [
+            "List comprehensions",
+            "Exceções e validação",
+            "Arquivos e JSON",
+            "APIs e requisições",
+            "Organização em módulos"
+          ],
+          "desafio": "Leia um arquivo JSON de produtos, filtre os itens acima de determinado preço e gere um novo arquivo."
+        }
+      }
+    },
+    {
+      "tecnologia": "Java",
+      "descricao": "Trilha fictícia para fundamentos da linguagem, orientação a objetos e boas práticas.",
+      "niveis": {
+        "iniciante": {
+          "duracao_estimada": "5 semanas",
+          "modulos": [
+            "Sintaxe e tipos",
+            "Condicionais e loops",
+            "Métodos e coleções",
+            "Orientação a objetos",
+            "Tratamento de exceções"
+          ],
+          "desafio": "Crie uma classe Conta com métodos para depositar, sacar e consultar o saldo, validando operações inválidas."
+        },
+        "intermediario": {
+          "duracao_estimada": "7 semanas",
+          "modulos": [
+            "Generics",
+            "Streams",
+            "Interfaces e abstrações",
+            "Testes automatizados",
+            "Princípios de design"
+          ],
+          "desafio": "Implemente uma solução que processe uma coleção de objetos usando Streams e gere um relatório agregado."
+        }
+      }
+    },
+    {
+      "tecnologia": "Git",
+      "descricao": "Trilha para versionamento, colaboração e boas práticas com Git.",
+      "niveis": {
+        "iniciante": {
+          "duracao_estimada": "2 semanas",
+          "modulos": [
+            "Repositórios e commits",
+            "Branches",
+            "Merge",
+            "Histórico e logs",
+            "GitHub e colaboração"
+          ],
+          "desafio": "Crie uma branch de funcionalidade, faça duas alterações organizadas em commits e integre-a à branch principal."
+        },
+        "intermediario": {
+          "duracao_estimada": "3 semanas",
+          "modulos": [
+            "Rebase",
+            "Cherry-pick",
+            "Resolução de conflitos",
+            "Conventional Commits",
+            "Pull Requests e revisão"
+          ],
+          "desafio": "Resolva um conflito entre duas branches e documente a estratégia utilizada para preservar o histórico."
+        }
+      }
+    },
+    {
+      "tecnologia": "SQL",
+      "descricao": "Trilha fictícia para consultas, relacionamentos e análise de dados.",
+      "niveis": {
+        "iniciante": {
+          "duracao_estimada": "3 semanas",
+          "modulos": [
+            "SELECT e filtros",
+            "Ordenação",
+            "Funções de agregação",
+            "GROUP BY",
+            "Relacionamentos básicos"
+          ],
+          "desafio": "Escreva uma consulta que liste clientes com suas compras e o valor total gasto por cliente."
+        },
+        "intermediario": {
+          "duracao_estimada": "5 semanas",
+          "modulos": [
+            "JOINs avançados",
+            "Subqueries",
+            "CTEs",
+            "Views",
+            "Otimização básica"
+          ],
+          "desafio": "Monte uma consulta com CTE que identifique os três clientes com maior crescimento de compras entre dois períodos."
+        }
+      }
+    }
+  ]
+}
